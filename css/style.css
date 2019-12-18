@@ -6,8 +6,9 @@
 /*appended stuff for search box begins here*/
 
 body{
-  background: #f2f2f2;
-  font-family: 'Open Sans', sans-serif;
+background: #f2f2f2;
+font-family: 'Open Sans', sans-serif;
+
 }
 
 .search {
@@ -72,15 +73,16 @@ img {
 }
 
 #side_nav_logo{
-	width: 40%;	
+	width: 40%;
 	margin-left: 30px;
 	margin-top: 30px;
 }
 
 .main_content{
 	position: relative;
-	left: 6em;
-	height: auto;
+    left: 6.8em;
+    height: auto;
+    width: 91%;
 }
 
 .top_buttons{
@@ -122,10 +124,11 @@ img {
 	position: relative;
 	top: 80px;
 	left: 11%;
+	width: inherit;
 }
 
 .category_slider_ul{
-	padding-top: 55px; 
+	padding-top: 55px;
 	padding-bottom: 55px;
 }
 
@@ -133,8 +136,9 @@ img {
 	top: 85px;
 	left: 11%;
 	position: relative;
-	width: 100%;
-	
+	width: inherit;
+	margin: 0px;
+
 }
 
 .item_slider{
@@ -170,11 +174,11 @@ img {
 	padding-bottom: 13px;
 	color: white;
 	margin-right: 10px;
-	
+
 }
 
 a, .slider_items{
-	text-decoration: none; 
+	text-decoration: none;
 	color: aliceblue;
 }
 
@@ -195,5 +199,5 @@ a, .slider_items{
 }
 
 .item_description{
-	
+
 }
