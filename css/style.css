@@ -103,7 +103,7 @@ img {
 .side_nav{
 	width: 16%;
 	height: 100%;
-	background-color: #e0e0eb;
+	background-color: #FAFAFA;
 	position: absolute;
 	top: 1%;
 }
@@ -123,16 +123,20 @@ img {
     font-size: 13px;
     font-weight: bold;
     color: #464646;
+	margin-bottom: 10px;
 }
 
 #myList0, #myList1 {
-    width: 98%;
+    width: 88%;
     padding: 6px;
     border-radius: 5px;
     border-width: 1.5px;
     border-color: #00B4CC;
     position: relative;
     z-index: 1;
+	margin-bottom: 35px;
+	margin-left: 5%;
+	
 }
 /*dropdown Box ammendment end
 */
