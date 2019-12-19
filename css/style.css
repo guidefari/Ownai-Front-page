@@ -111,12 +111,29 @@ img {
 
 .side_links {
 	text-decoration: none;
+	font-weight: bold;
+    color: #464646;
 }
 
 
 /*dropdown Box begin
 */
+.box {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    color: #464646;
+}
 
+#myList0, #myList1 {
+    width: 98%;
+    padding: 6px;
+    border-radius: 5px;
+    border-width: 1.5px;
+    border-color: #00B4CC;
+    position: relative;
+    z-index: 1;
+}
 /*dropdown Box ammendment end
 */
 
