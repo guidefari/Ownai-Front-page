@@ -94,6 +94,8 @@ img {
 
 .top_right_buttons{
 	float: right;
+	position: relative;
+	width: fit-content;
 }
 
 .login_button{
@@ -105,7 +107,7 @@ img {
 	background-color: #188ECC;
 	border-radius: 3px;
 	padding: 5px;
-	padding-right: 8em;
+	
 	padding-top: 13px;
 	padding-bottom: 13px;
 	color: white;
@@ -119,7 +121,7 @@ img {
 	background-color: #FF7B0D;
 	border-radius: 3px;
 	padding: 5px;
-	padding-right: 8em;
+	
 	padding-top: 13px;
 	padding-bottom: 13px;
 	color: white;
@@ -171,7 +173,8 @@ img {
 .category_slider{
 	position: relative;
 	top: 80px;
-	width: inherit;
+	width: fit-content;
+	max-width: 100%;
 }
 
 .category_slider_ul{
