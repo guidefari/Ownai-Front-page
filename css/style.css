@@ -6,7 +6,7 @@
 /*appended stuff for search box begins here*/
 
 body{
-background: #f2f2f2;
+background: #FFFFFF;
 font-family: 'Open Sans', sans-serif;
 
 }
@@ -219,6 +219,6 @@ a, .slider_items{
     font-weight: bold;
 }
 
-.item_description{
-
+.item_details{
+background-color: #FFFFFF;
 }
