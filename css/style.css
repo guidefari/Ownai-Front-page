@@ -82,8 +82,9 @@ img {
 .main_content{
 	position: relative;
     left: 18em;
-    height: auto;
-    width: 85%;
+	height: auto;
+	width: fit-content;
+	margin: 0 auto;
 }
 
 .top_buttons{
@@ -96,6 +97,7 @@ img {
 	float: right;
 	position: relative;
 	width: fit-content;
+	margin-top: 1%
 }
 
 .login_button{
@@ -105,7 +107,7 @@ img {
 	
 
 	background-color: #188ECC;
-	border-radius: 3px;
+	border-radius: 5px;
 	padding: 5px;
 	
 	padding-top: 13px;
